@@ -24,6 +24,7 @@ void PhoneNumber::Show()
 	cout << "\tType: " << m_type << endl;
 }
 
+bool PhoneNumber::Found(string key) const
 {
 	return (m_phone.compare(key) == 0);
 }
